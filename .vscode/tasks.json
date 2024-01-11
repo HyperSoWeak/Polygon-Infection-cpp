@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "src/*.cpp",
+                "-o",
+                "bin/project.exe",
+                "-I${workspaceFolder}/allegro/include",
+                "-L${workspaceFolder}/allegro/lib",
+                "-lallegro_monolith"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
