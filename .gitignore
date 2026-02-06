@@ -1,4 +1,19 @@
+# Local deps and build outputs
+/.allegro/
+/.allegro-build/
+/build/
+
+# CMake artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Old project leftovers
 /allegro/
 /mingw64/
 /bin/
 /todo.txt
+
+# Editor
+/.vscode/
